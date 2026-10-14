@@ -71,24 +71,14 @@ Hands-on project series evolving a full-stack application into a multi-environme
 
 - **Kubernetes:** Deployments, Services, Ingress e persistência de dados.
 - **Helm:** templates reutilizáveis e configuração por ambiente.
-- **CI/CD:** testes, build de imagens, registry privado e deployments automatizados.
-- **Entrega:** automação para DEV e STAGING, com promoção manual para produção.
+- **CI/CD:** testes, build de imagens, publicação no registry e deployments automatizados.
+- **Entrega:** deploy automatizado em DEV e STAGING, com deploy manual para produção.
 
 **Repositórios | Repositories**
 
-- [k8s-gitlab-cicd](https://github.com/BaDcereal/k8s-gitlab-cicd): Implementação de uma pipeline CI/CD completa com GitLab para testes, build de imagens Docker e deploy automatizado em Kubernetes usando Helm e Private Registry.
-
-- [k8s-helm-platform](https://github.com/BaDcereal/k8s-helm-platform): Padronizando Deploys Kubernetes com Helm: do YAML duplicado ao reuso
-
-- [k8s-scale-multienv](https://github.com/BaDcereal/k8s-scale-multienv): Kubernetes Scalability & Multi-Environment Lab (Dev, Staging and Production)
-
-- [fullstack_k8s](https://github.com/BaDcereal/fullstack_k8s): Deploy de uma Aplicação FullStack em Kubernetes
-
-- [vscode-devcontainer](https://github.com/BaDcereal/vscode-devcontainer): Ambiente DevOps moderno com Dev Containers
-
-- [mysql-encrypt](https://github.com/BaDcereal/mysql-encrypt): Este artigo tem como objetivo orientar a implementação de criptografia nas tabelas do tipo InnoDB, não entrarei em detalhes de como instalar o Docker, as etapas descritas a seguir supõem que você já tem o Docker instalado e configurado na sua máquina, este artigo também pode ser utilizado em MySQL Server sem o uso do Docker.
-
-- [EDNExport](https://github.com/BaDcereal/EDNExport): É um projeto GUI (aplicativo baseado em gráficos) baseado em Python para exportar os dados dos arquivos delimitados do DNE. O principal objetivo do projeto é facilitar a exportação e atualização dos dados do DNE para arquivos SQL ou para Banco de Dados.
+- [Pipeline CI/CD com GitLab e Kubernetes](https://github.com/BaDcereal/k8s-gitlab-cicd)
+- [Aplicação Full Stack em Kubernetes](https://github.com/BaDcereal/fullstack_k8s)
+- [Plataforma Kubernetes com Helm](https://github.com/BaDcereal/k8s-helm-platform)
 
 ---
 
@@ -115,6 +105,17 @@ Configuração de ambientes de desenvolvimento reproduzíveis utilizando contain
 Reproducible development environments using containers to improve consistency and simplify developer setup.
 
 [Ver repositório | View repository](https://github.com/BaDcereal/vscode-devcontainer)
+
+
+### 4. Outros projetos | Other projects
+
+- **[mysql-encrypt](https://github.com/BaDcereal/mysql-encrypt)**  
+  Artigo prático sobre criptografia de dados em tabelas InnoDB no MySQL, com opção de execução em ambiente Docker.  
+  *Practical guide to data encryption in MySQL InnoDB tables, with optional Docker-based execution.*
+
+- **[EDNExport](https://github.com/BaDcereal/EDNExport)**  
+  Aplicação GUI em Python para exportar dados de arquivos delimitados do DNE para arquivos SQL ou bancos de dados.  
+  *Python GUI application for exporting DNE delimited-file data to SQL files or databases.*
 
 ---
 
@@ -145,7 +146,7 @@ Reproducible development environments using containers to improve consistency an
 
 ---
 
-## 🎓 Formação e certificações | Education & certifications
+## 🎓 Formação e desenvolvimento profissional | Training & Professional Development
 
 - **Especialização em DevOps e DevSecOps — Hackers do Bem / RNP**  
   80 horas · Agosto–Setembro de 2024
